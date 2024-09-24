@@ -8,6 +8,7 @@
 
 html{
     font-family: sans-serif;
+    font-weight: 400;
 }
 
 header{
@@ -23,7 +24,6 @@ header{
 .col {
   width: calc(100% / 3);
   height: 50%;
-  border: 1px solid black;
   align-items: center;
   padding: 10px;
 }
@@ -75,6 +75,46 @@ a {
     width: 20px;
 }
 
-.brand{
+.sale{
+    color: red;
+}
 
+.full-price{
+    text-decoration: line-through;
+}
+
+figure{
+    position: relative;
+}
+
+.prefe{
+    font-size: 25px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    position: absolute;
+    left: 90%;
+    z-index: 1;
+}
+
+.big-sale{
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    top: 400px;
+}
+
+.ambiente{
+    background-color: rgb(8, 176, 14);
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 400px;
+    left: 45px;
+}
+
+.only.ambiente{
+    left: 0;
 }
