@@ -6,10 +6,16 @@
   padding: 0;
 }
 
+html{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(255, 136, 0);
+}
+
 .row {
   max-width: 1000px;
-  
-  background-color: brown;
   display: flex;
   flex-wrap: wrap;
 }
@@ -26,7 +32,49 @@
   display: flex;
   justify-content: center;
 }
+
+.container.nav{
+    margin-bottom: 30px;
+}
+
 .figure {
   width: 100%;
-  
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+.row-nav{
+    height: 60px;
+    width: 1000px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    height: 90%;
+}
+
+.mini-tab{
+    max-height: 30px;
+}
+
+.category{
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+.icon{
+    width: 20px;
+}
+
+.brand{
+
 }
