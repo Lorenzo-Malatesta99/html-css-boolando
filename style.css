@@ -34,7 +34,7 @@ header{
 }
 
 .container.nav{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .figure {
@@ -117,4 +117,40 @@ figure{
 
 .only.ambiente{
     left: 0;
+}
+
+
+/* footer */
+
+
+footer{
+    background-color: black;
+}
+
+.row-foot{
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.white{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.container-foot{
+    margin-top: 60px;
+}
+
+.container.foot{
+    flex-direction: column;
+}
+
+.category.foot{
+    gap: 10px;
 }
